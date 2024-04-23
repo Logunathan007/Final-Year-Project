@@ -1,0 +1,13 @@
+.content{
+    width: 90%;
+    height: 78vh;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5), -2px -2px 5px 2px rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
