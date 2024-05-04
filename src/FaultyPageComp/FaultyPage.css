@@ -1,0 +1,45 @@
+.faultypage{
+    width: 100vw;
+    height: 90vh;
+    padding:10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5), -2px -2px 5px 2px rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    position: relative;
+}
+
+#fsync{
+    /* border:1px solid black; */
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right:0px;
+    width:30px;
+    margin-right: 2%;
+    margin-top:5px;
+    height:30px;
+    background:url("../sync.png") center/cover no-repeat
+}
+
+center{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+#fsync:active {
+    animation-name: rot;
+    animation-duration: .6s;
+}
+@keyframes rot {
+    0%{
+        transform: rotate(-360deg);
+    }
+}
