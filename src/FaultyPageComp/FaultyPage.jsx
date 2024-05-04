@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './FaultyPage.css';
-import ApiRequest from '../ApiRequest';
+import ApiRequest from '../api/ApiRequest';
 import Postcard from '../PostcardComp/Postcard';
 import Screen from '../ScreenComp/Screen';
 

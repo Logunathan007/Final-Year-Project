@@ -1,8 +1,8 @@
 import React,{useState} from 'react'
 import './ScreenContent.css'
-import Postcard from '../PostcardComp/Postcard.js'
-import PostcardDetails from '../PostcardDetailsComp/PostcardDetails.js'
-import Empty from '../EmptyComp/Empty.js'
+import Postcard from '../PostcardComp/Postcard.jsx'
+import PostcardDetails from '../PostcardDetailsComp/PostcardDetails.jsx'
+import Empty from '../EmptyComp/Empty.jsx'
 
 const ScreenContent = ({obj,setObj,districts,selectDistrict,setSelectDistrict,setSelectPost,setLightIds,selectPost,lightIds}) => {
   let [data, setData] = useState([]); 

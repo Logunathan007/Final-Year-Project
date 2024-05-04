@@ -4,7 +4,7 @@ import './Header.css'
 const Header = ({setPageVal,pageVal}) => {
   return (
     <div className='header'>
-        <button className='all'
+        <button className='all all-button'
           onClick={
             ()=>{
               setPageVal("all")
@@ -14,6 +14,7 @@ const Header = ({setPageVal,pageVal}) => {
             All
         </button>
         <button
+          className='faulty-button'
           onClick={
             ()=>{
               setPageVal("faulty")

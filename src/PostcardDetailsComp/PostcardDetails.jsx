@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import './PostcardDetails.css'
-import ApiRequest from '../ApiRequest'
+import ApiRequest from '../api/ApiRequest'
 
 const PostcardDetails = ({obj,data, setData,dataVal,setDataVal,setObj,lightIds,setLightIds}) => {
     

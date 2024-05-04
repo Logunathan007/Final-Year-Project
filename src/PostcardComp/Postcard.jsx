@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import './Postcard.css'
-import ApiRequest from '../ApiRequest'
+import ApiRequest from '../api/ApiRequest'
 
 const Postcard = ({obj,setSelectDistrict,data,dname, setData,dataVal,setDataVal,setObj,postObj,setSelectPost,setLightIds,selectDistrict}) => {
   let [status,setStatus] = useState([]);

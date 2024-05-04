@@ -4,13 +4,23 @@
     display: flex;
     flex-wrap: wrap;
 }
+.all-button{
+    border: 1px solid black !important;
+}
+.faulty-button{
+    border: 1px solid black !important;
+    border-left: 0px !important;
+}
 button{
+    background-color: white;
     flex: 1;
     font-size: larger;
     font-weight: 600;
 }
 button:hover{
     cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
 }
 
 
